@@ -46,7 +46,7 @@ You will be asked to simulate a simple scrabble game of 2 players without placin
   the score is maintained
   players pick additional letters
 * Handle the flow of the game till the end
-* Log the actoions taken by each player and the outcome score in a file. 
+* Log the actions taken by each player and the outcome score in a file. 
 
 Bonus Items
 --------------------------------------------
