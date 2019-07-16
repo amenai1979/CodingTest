@@ -15,7 +15,6 @@ In this repo you will find the following files to get you started:
 References:
 https://en.wikipedia.org/wiki/Scrabble_letter_distributions#French
 https://aide-scrabble.fr/regles/
-Scrabble board: https://i.stack.imgur.com/0kZO8.jpg
 
 Objective A 
 -----------------------------------
@@ -30,8 +29,11 @@ Hints: you do not necessarily need to use all seven letters
 example :
 
 generate_random_input(letter_set)
+
 AATEFER
+
 find_best('AATEFER')
+
 AFTER, 8
 
 Objective B 
