@@ -4,15 +4,35 @@ The objective of this exercise is to gage your proficiency level in programming.
 PLEASE READ ALL INSTRUCTIONS
 ----------------------------
 
+Supporting Elements  
+-------------------
+
+In this repo you will find the following files to get you started:
+
+- francais.text --> is a helper file that contains all of the words in the french language
+- french_scrabble_distribution_with_points.csv --> contains the number of letters in a typical scrabble game and how many points each one conveys.
+
+References:
+https://en.wikipedia.org/wiki/Scrabble_letter_distributions#French
+https://aide-scrabble.fr/regles/
+Scrabble board: https://i.stack.imgur.com/0kZO8.jpg
+
 Objective A - To be delivered after 24 hours
 -----------------------------------
-You will be asked to build a srabble anagramer:
+You will be asked to build a scrabble anagramer:
 
 * randomly pick 7 letters from a total set of 102 letters
 
-* find the words in the french dictionnary that maximizes the number of points.
+* find the words in the french dictionary that maximizes the number of scrabble points.
 
 Hints: you do not necessarily need to use all seven letters
+
+example :
+
+generate_random_input(letter_set)
+AATEFER
+find_best('AATEFER')
+AFTER, 8
 
 Objective B - To be delivered after 48 hours
 --------------------------------------------
@@ -24,7 +44,6 @@ You will be asked to simulate a simple scrabble game of 2 players without placin
   the score is maintained
   players pick additional letters
 * handle the flow of the game till the end
-
 
 Objective C - To be delivered after 72 hours
 --------------------------------------------
@@ -48,28 +67,24 @@ How you will be evaluated
 -------------------------
 
 Object oriented design capability
+
 Choice of data structures
+
 Error and exception handling
+
 Usability 
+
 Clarity and reusability of the code
+
 Testing and validation
+
 Documentation
+
 Speed of execution
 
 
 
-Supporting Elements  
--------------------
 
-In this repo you will find the following files to get you started:
-
-- francais.text --> is a helper file that contains all of the words in the french language
-- french_scrabble_distribution_with_points.csv --> contains the number of letters in a typical scrabble game and how many points each one conveys.
-
-References:
-https://en.wikipedia.org/wiki/Scrabble_letter_distributions#French
-https://aide-scrabble.fr/regles/
-Scrabble board: https://i.stack.imgur.com/0kZO8.jpg
 
 
  
